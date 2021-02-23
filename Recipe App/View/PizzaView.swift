@@ -41,6 +41,6 @@ struct PizzaView_Previews: PreviewProvider {
     static var previews: some View {
         
         // We'll have to pass in a dummy pizza to the preview
-        PizzaView(pizza: Pizza(id: UUID(), name: "Test", toppings: ["topping1", "toppping2"], image: "meatlovers"))
+        PizzaView(pizza: Pizza(id: UUID(), name: "Meateor", toppings: ["topping1", "toppping2"], image: "meatlovers"))
     }
 }
